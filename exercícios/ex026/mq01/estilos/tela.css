@@ -1,0 +1,28 @@
+@charset "URF-8";
+
+/*ESTILO PARA TELA*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: lightgray;
+}
+header > h1 {
+    text-align: center;
+}
+
+menu ul{
+    list-style-type: none;
+    background-color: gray;
+}
+menu li{
+    display: inline-block;
+    padding: 10px;
+    background-color: darkslategray;
+}
+article{
+    width: 600px;
+    margin: auto;
+    display: block;
+}
